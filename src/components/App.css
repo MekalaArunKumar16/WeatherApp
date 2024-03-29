@@ -1,0 +1,179 @@
+body {
+  background: linear-gradient(to bottom, #330f9f, #010101); /* Linear gradient from blue to white */
+  color: #333;
+  height: 100vh;
+}
+
+.app-container {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #fff; /* White title color */
+}
+
+header p {
+  font-size: 18px;
+  color: #f0f0f0; /* Lighter subtitle color */
+}
+
+
+
+h2 {
+  font-size: 24px;
+  color:#170450; /* Blue section title color */
+}
+
+.weather-container {
+
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+.weather-card {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for a raised effect */
+  transition: box-shadow 0.3s ease; /* Add transition for smooth hover effect */
+
+  /* Add hover effect */
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+.weather-card h3 {
+  font-size: 20px;
+  color: #333; /* Dark heading color */
+}
+
+.weather-card div {
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  font-size: 18px;
+  border:none;
+  width: 70%;
+  background-color: #ffffff; /* Light gray input background color */
+  color: #333; /* Dark input text color */
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #f99c4b; /* Blue button background color */
+  color: #fff; /* White button text color */
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+.weather-input{
+  width: 400px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  display:flex;
+  justify-content: center;
+}
+
+.weather-input1{
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+
+
+header{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 20px;
+  font-style: italic;
+}
+
+
+@media screen and (max-width: 768px) {
+  header h1 {
+      font-size: 5vw;
+  }
+
+  header p {
+      font-size: 2.5vw;
+  }
+
+  h2 {
+      font-size: 4vw;
+  }
+
+  .weather-card {
+      max-width: calc(50% - 20px);
+  }
+
+  input[type="text"],
+  button {
+      font-size: 3vw;
+  }
+
+  .weather-input1{
+    display: flex;
+    gap: 5px;
+  }
+  .weather-input1 div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .weather-card {
+      max-width: 100%;
+  }
+  input[type="text"]{
+    width: 150px;
+  }
+  .weather-input1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+.info-items{
+display: flex;
+justify-content: center;
+align-items:center;
+gap: 20px;
+}
+
+.input-items{
+display: flex;
+justify-content: center;
+align-items:center;
+gap: 10px;
+}
