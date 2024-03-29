@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+Weather Application
+Assignment Overview:
+This assignment involves building a real-time weather application using React. The purpose of the application is to provide users with up-to-date weather information for multiple cities.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+How to Run the Application:
+To run the application locally, follow these steps:
 
-## Available Scripts
+Clone this repository to your local machine.
+Navigate to the project directory.
+Install dependencies by running npm install or yarn install.
+Obtain an API key from Tomorrow.io and replace the placeholder in the code with your actual API key.
+Start the development server by running npm start or yarn start.
+Open your browser and navigate to http://localhost:3000 to view the application.
+Dependencies:
+The application relies on the following external libraries and tools:
 
-In the project directory, you can run:
+React
+Axios
+react-fast-marquee
+Installation Instructions:
+To install the dependencies and set up the development environment, follow the steps outlined in the "How to Run the Application" section above.
 
-### `npm start`
+Configuration:
+Ensure that you have replaced the placeholder API key in the code with your actual API key from Tomorrow.io.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Testing:
+There are currently no automated tests included in this project. However, you can manually test the application by running it locally and verifying that weather data is displayed correctly for different cities.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Issues and Troubleshooting:
+If you encounter any issues while running the application, consider the following troubleshooting steps:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Double-check that you have replaced the placeholder API key with your actual API key.
+Ensure that your internet connection is stable and can access the Tomorrow.io API.
+Check the browser console for any error messages and investigate accordingly.
+For further assistance, feel free to contact me
